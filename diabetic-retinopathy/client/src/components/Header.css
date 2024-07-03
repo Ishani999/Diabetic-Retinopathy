@@ -1,0 +1,49 @@
+.header {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-start;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-left:16px;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #6CC5E6; /* Yellow color on hover */
+}
+.sign-out-btn {
+  color: #fff; /* Example text color */
+  font-weight: bold;
+  font-size: 1.1em;
+  background-color: #333; /* Example button background color */
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+}

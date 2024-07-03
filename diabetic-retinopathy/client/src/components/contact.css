@@ -1,0 +1,10 @@
+.contact-page {
+    color: white;
+    background: linear-gradient(155deg, #03161B 40%, #6CC5E6 60%);
+    padding: 450px;
+}
+
+.contact-page a {
+    color: white;
+    text-decoration: underline;
+}

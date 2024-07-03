@@ -1,0 +1,112 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this as needed */
+  background-color: linear-gradient(135deg, rgba(6, 147, 227, 1) 40%, rgb(155, 81, 224) 60%);
+  color: #3ba3f2; /* Light green text color */
+}
+.title-container {
+  display: flex;
+  align-items: center; /* Vertically center the image with the text */
+  justify-content: center; /* Center the entire title container horizontally */
+  margin-bottom: 1em; /* Adjust as needed */
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title-container h2 {
+  display: flex;
+  align-items: center;
+  font-family: 'Arial', sans-serif; /* Adjust font */
+  font-size: 18em; /* Adjust font size */
+  color: #22a7cb; /* Adjust font color */
+  margin-left: 70px; /* Remove default margin */
+  margin-top: -10px;
+}
+
+.title-container h2 .logoim {
+  width: 20%; /* Adjust image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 0; /* Adjust spacing */
+}
+
+.title-container h6 {
+  font-family: 'Verdana', sans-serif; /* Adjust font */
+  font-size: 1.5em; /* Adjust font size */
+  color: #666; /* Adjust font color */
+  margin-top:-180px;
+}
+#signInDiv {
+  margin-top: 10px; /* Add space between the text and button */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.header {
+  background-color: #333;
+  color: rgb(31, 31, 31);
+  padding: 10px 0; /* Adjust padding as needed */
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.logo {
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: bold;
+}
+.footer {
+  background-color: #333;
+  color: rgb(247, 244, 244);
+  padding: 10px 0; /* Adjust padding as needed */
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.footer-content {
+  font-size: 0.8rem; /* Adjust font size as needed */
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
